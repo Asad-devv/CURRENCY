@@ -8,7 +8,7 @@ function App() {
 
   return (
     <Container maxWidth="md" sx={{background}}>
-      <Button></Button>
+      <Button>KING ASAD</Button>
     </Container>
   )
 }
