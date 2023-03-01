@@ -9,18 +9,9 @@ function App() {
   return (
     <Container maxWidth="md" sx={{ background: "#fddfff" }}>
       <Typography variant = "h5"sx={{mt:"2rem"}}>Stay Ahead with Currency conversion</Typography>
-      <Grid container spacing ={2}>
-        <Grid item>
-          Item
-        </Grid>
-        <Grid item>
-          Item
-        </Grid>
-        <Grid item>
-          Item
-        </Grid>
-        <Grid item>
-          Item
+      <Grid container>
+        <Grid>
+          
         </Grid>
       </Grid>
     </Container>

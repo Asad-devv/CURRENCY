@@ -1,4 +1,4 @@
-import { Button, Container,Typography,Grid } from "@mui/material";
+import { Button, Container,Typography } from "@mui/material";
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 // import './App.css'
@@ -9,20 +9,7 @@ function App() {
   return (
     <Container maxWidth="md" sx={{ background: "#fddfff" }}>
       <Typography variant = "h5"sx={{mt:"2rem"}}>Stay Ahead with Currency conversion</Typography>
-      <Grid container spacing ={2}>
-        <Grid item>
-          Item
-        </Grid>
-        <Grid item>
-          Item
-        </Grid>
-        <Grid item>
-          Item
-        </Grid>
-        <Grid item>
-          Item
-        </Grid>
-      </Grid>
+      <Grid></Grid>
     </Container>
   );
 }
