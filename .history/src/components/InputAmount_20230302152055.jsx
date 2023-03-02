@@ -1,5 +1,4 @@
 import React from "react";
-import UseAxios from "../hooks/UseAxios"
 
 import { Grid, TextField ,InputAdornment} from "@mui/material";
 const InputAmount = () => {
@@ -11,7 +10,6 @@ const InputAmount = () => {
         inputProps={{ type: "number",startAdornment :<InputAdornment position="start">qwnm$</InputAdornment> }}
         
       ></TextField>
-      <UseAxios/>
     </Grid>
   );
 };

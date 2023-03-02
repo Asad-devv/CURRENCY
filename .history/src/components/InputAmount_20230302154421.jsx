@@ -11,7 +11,7 @@ const InputAmount = () => {
         inputProps={{ type: "number",startAdornment :<InputAdornment position="start">qwnm$</InputAdornment> }}
         
       ></TextField>
-      <UseAxios/>
+      <UseAxios
     </Grid>
   );
 };
